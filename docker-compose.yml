@@ -11,3 +11,5 @@ services:
 
 volumes:
   sqlserver-data:
+
+#接続文字列:Server=localhost,1433;Database=OwlBin;User Id=sa;Password=OwlBin@Dev123;TrustServerCertificate=True;

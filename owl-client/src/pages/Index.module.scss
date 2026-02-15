@@ -1,0 +1,42 @@
+.index-page{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    &__header{
+        height: 5rem;
+        position:absolute;
+        top:0;
+        left:0;
+        padding:0 1rem;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        &-nav{
+            display: flex;
+            align-items: center;
+            gap:1rem;
+        }
+        &-homepage{
+            text-decoration: underline;
+            transition: opacity 0.3s ease-in-out;
+            &:hover{
+                opacity:0.5;
+            }
+        }
+    }
+
+    &__visual{
+        -webkit-mask-image: linear-gradient(to left, black 50%, transparent 100%);
+        mask-image: linear-gradient(to left, black 50%, transparent 100%);
+        width:45rem;
+        height:45rem;
+    }
+}
+

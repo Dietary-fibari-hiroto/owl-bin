@@ -1,0 +1,16 @@
+.login-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__form{
+        width:37.5rem;
+        height:43.75rem;
+        border:solid 1px black;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+}
